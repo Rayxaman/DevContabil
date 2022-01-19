@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.caixa-superior {
+  background-image: url("./devContabil.png");
+  background-size: cover;
+  height: 90vh;
+}
+
+.cabecalho {
+  padding-top: 25px;
+  padding-left: 35px;
+}
+
+.titulo-cabecalho {
+  font-size: 24px;
+  color: #ffffff;
+  display: inline;
+}
+
+.link-cabecalho {
+  font-size: 14px;
+  color: #ffffff;
+  display: inline;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 58px;
+  color: #ffffff;
+  position: relative;
+  top: 280px;
+  margin-left: 35px;
+}
+
+form {
+  opacity: 0;
+  transition: opacity 1s linear;
+  background-color: #ffffff;
+  border-radius: 10px;
+  float: right;
+  padding: 20px;
+  margin-right: 50px;
+  position: relative;
+  bottom: 70px;
+}
+
+.mostrar-formulario {
+  opacity: 1;
+}
+
+input {
+  display: block;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+textarea {
+  display: block;
+  height: 90px;
+  width: 250px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.titulo-formulario {
+  font-size: 24px;
+  color: #252b42;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  color: #252b42;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #40bb15;
+  color: #ffffff;
+  width: 250px;
+  height: 40px;
+  /* padding: 20px 120px; -  também serve para aumentar o background do botão*/
+}
+
+.caixa-central {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+#titulo-meio {
+  font-size: 40px;
+  color: #252b42;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #a9d6ff;
+  border-radius: 10px 20px 0 0;
+}
+
+.titulo-card {
+  background: #219653;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px 10px 0 0; /*não estava no código original, mas a borda não arredondou no background do titulo*/
+}
+
+ul {
+  padding: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.caixa-inferior {
+  background-color: #00095d;
+  margin: 30px;
+}
+
+#titulo-inferior {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  padding: 80px;
+}
+
+.paragrafo-inferior {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 70px 70px 70px;
+}
+
+#copyright {
+  color: #252b42;
+  text-align: center;
+}
